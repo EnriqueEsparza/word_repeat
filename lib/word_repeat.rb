@@ -3,6 +3,8 @@ class String
   user_string = "me loves me"
 
   user_string.split(/ /)
+
+  #user_string.count("me").to_s
   end
 end
 
