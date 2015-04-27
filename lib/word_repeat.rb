@@ -1,10 +1,11 @@
-class String
-  define_method(:word_repeat) do
-  user_string = "me loves me"
+class Array
+  define_method(:word_repeat) do |string|
+  user_string = "user_string"
+  new_array = user_string.split(/ /)
+  user_string.count("self")
 
-  user_string.split(/ /)
 
-  #user_string.count("me").to_s
+#  user_string.count("me")
   end
 end
 
